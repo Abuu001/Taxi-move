@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "taxi-move",
+    "slug": "taxi-move",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.taximove",
+      "config":{
+        "googleMapsApiKey" :"AIzaSyBFkkEahV8iLdbbCxFfS3vLwbNn8oNFDGU"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.taximove",
+      "config" : {
+        "googleMaps" : {
+          "apiKey" : "AIzaSyBFkkEahV8iLdbbCxFfS3vLwbNn8oNFDGU"
+        },
+        "permissions" : ["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION","FOREGROUND_SERVICE"] 
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
